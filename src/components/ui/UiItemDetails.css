@@ -1,0 +1,16 @@
+/* .uiItemDetails {
+    max-width: 1000px;
+} */
+
+.uiItemDetails li {
+    border-bottom: 2px #242D33 solid;
+    /* padding: 0 0.5rem; */
+    /* list-style-type: square; */
+}
+
+.uiItemDetails h3 {
+    background: #242D33;
+    /* border-bottom: 1px white solid; */
+    padding: 0.5rem;
+    text-align: center;
+}

@@ -1,0 +1,10 @@
+.backButton {
+    background: #ff3434;
+    color: white;
+    border: none;
+    margin-top: 1rem;
+    font-weight: bolder;
+    padding: 3px 7px;
+    border-radius: 3px;
+    cursor: pointer;
+}

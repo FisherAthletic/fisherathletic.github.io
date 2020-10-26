@@ -1,0 +1,60 @@
+.uiItemCard {
+    text-align: center;
+    padding: 0 0 0 0;
+    /* border-radius: 5px; */
+    /* border-bottom: 2px red solid; */
+    width: 100%;
+    /* max-width: 1000px; */
+}
+
+.uiItemCard h3 {
+    padding: 0.5rem;
+    background: #242D33;
+    margin: 0.5rem 0 1rem 0;
+}
+
+.uiItemCard img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.itemImgBar {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* max-width: 1000px; */
+    margin-top: 1rem;
+    padding: 0 0 0 0;
+    overflow: hidden;
+}
+
+.itemImgList {
+    list-style-type: none;
+    padding: 0px 0px 0px 0px;
+}
+
+.itemImgListLi img {
+    width: 100%;
+    cursor: pointer;
+    filter: opacity(0.4) !important;
+}
+
+.itemImgListLi img:hover {
+    filter: none !important;
+}
+
+.uiItemCard p {
+    text-align: left;
+    padding: 0 0.5rem;
+}
+
+.lb-button {
+    background-color: darkred;
+}
+
+.lb-button:hover, .prev:hover, .next:hover {
+    background-color: black !important;
+}
+
+.prev, .next {
+    background-color: darkred !important;
+}

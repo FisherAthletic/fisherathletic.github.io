@@ -1,0 +1,10 @@
+.uiList {
+    list-style-type: none;
+    padding: 0px 0px 0px 0px;
+}
+
+.uiList a {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}

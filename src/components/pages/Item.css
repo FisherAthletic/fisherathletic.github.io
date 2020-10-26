@@ -1,0 +1,21 @@
+/* .itemDiv {
+    display: grid;
+    margin: auto;
+    max-width: 1500px;
+}
+
+.backBtn {
+    grid-area: backBtn;
+}
+
+.images {
+    grid-area: images;
+}
+
+.quoteBar {
+    grid-area: quoteBar;
+}
+
+.details {
+    grid-area: details;
+} */

@@ -1,0 +1,12 @@
+.productItem img {
+    width: 100%;
+}
+
+.productItem h3 {
+    margin: 0 0.5rem 0 0.5rem;
+}
+
+.productItem p {
+    margin: 0 0.5rem 0.5rem 0.5rem;
+    color: lightgray;
+}
