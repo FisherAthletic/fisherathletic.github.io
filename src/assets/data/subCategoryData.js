@@ -11,43 +11,48 @@ let subCategoryData = [
         main: 'Football'
     },{
         id: 'c1-3',
+        name: 'Blasters',
+        urlName: 'blasters',
+        main: 'Football'
+    },{
+        id: 'c1-4',
         name: 'Chutes',
         urlName: 'chutes',
         main: 'Football'
     },{
-        id: 'c1-4',
+        id: 'c1-5',
         name: 'Dummies',
         urlName: 'dummies',
         main: 'Football'
     },{
-        id: 'c1-5',
-        name: 'Field Accessories',
-        urlName: 'field+accessories',
-        main: 'Football'
-    },{
         id: 'c1-6',
-        name: 'Practice Items',
-        urlName: 'practice+items',
+        name: 'Field Accessories',
+        urlName: 'field accessories',
         main: 'Football'
     },{
         id: 'c1-7',
+        name: 'Practice Items',
+        urlName: 'practice items',
+        main: 'Football'
+    },{
+        id: 'c1-8',
         name: 'Sleds',
         urlName: 'sleds',
         main: 'Football'
     },{
-        id: 'c1-8',
+        id: 'c1-9',
         name: 'Strength & Speed',
-        urlName: 'strength+speed',
+        urlName: 'strength and speed',
         main: 'Football'
     },{
-        id: 'c1-9',
+        id: 'c1-10',
         name: 'Training',
         urlName: 'training',
         main: 'Football'
     },{
-        id: 'c1-10',
+        id: 'c1-11',
         name: 'Youth Football',
-        urlName: 'youth+football',
+        urlName: 'youth football',
         main: 'Football'
     }
 ]

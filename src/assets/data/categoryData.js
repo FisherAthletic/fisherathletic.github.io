@@ -36,16 +36,11 @@ const categoryData = [
         coverImg: 'https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fdeluxe-mesh-windscreen-dmws.jpg?alt=media&token=aad36623-e15a-4c64-a6f3-2fd420f9c467'
     },{
         id: 'c8',
-        name: 'Strength & Conditioning',
-        urlName: 'strength+conditioning',
-        coverImg: 'https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fset-of-impact-plyo-boxes-ply3630.jpg?alt=media&token=c6b2ff26-1502-4efb-9585-dfdf58b84f52'
-    },{
-        id: 'c9',
         name: 'Gym',
         urlName: 'gym',
         coverImg: 'https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fdivider-curtains-gdc193.jpg?alt=media&token=ea70e4f0-1869-4670-a30e-250c8a7bd7d5'
     },{
-        id: 'c10',
+        id: 'c9',
         name: 'PPE',
         urlName: 'ppe',
         coverImg: 'https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fbrute-sled-9712.JPG?alt=media&token=178d2637-5361-4f03-bc4d-a589ea121834'

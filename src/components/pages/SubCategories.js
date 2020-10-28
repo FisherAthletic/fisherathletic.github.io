@@ -6,8 +6,8 @@ import SubCategoryList from '../subComponents/SubCategoryList'
 import subCategoryData from '../../assets/data/subCategoryData'
 
 const SubCategories = props => {
-    const urlSubCategory = useParams().subCategory
-    const loadedSubCategories = subCategoryData.filter(item => (item.main.toUpperCase() === urlSubCategory.toUpperCase()))
+    const url = useParams().subCategory
+    const loadedSubCategories = subCategoryData.filter(item => (item.main.toUpperCase() === url.toUpperCase()))
     return (
         <div>
             <BackButton />
