@@ -1432,26 +1432,63 @@ let productData = [
         id: 'p53',
         name: 'Traditional Goal Post Pad',
         sku: 'gppl1',
-        description: `One color lettering, sewn onto the pad. Up to 8 letters per pad. Letters and vinyl available in 17 color options. These come in two closure styles. The Varsity series is a wrap style cover with top and bottom protection that increases durability The PRO series is a fully erased vinyl cover which keeps the foam dry and in perfect shape guaranteeing maximum lifespan. Both styles have a velcro flap at back for closure. All of our goal post pads meet NCAA and NFHS safety standards. Heavy-duty, 18 ounce coated vinyl nylon covers. Solid polyfoam cylinder with a center cutout to match your goal (please provide pole diameter or circumference when ordering). For custom logos you will want to choose the Elite or Classic style pads. School logos or promotionals are all available from Fisher.`,
+        description: `One color lettering, sewn onto the pad. Up to 8 letters per pad. Letters and vinyl available in 17 color options. These come in two closure styles. The Varsity series is a wrap style cover with top and bottom protection that increases durability The PRO series is a fully encased vinyl cover which keeps the foam dry and in perfect shape guaranteeing maximum lifespan. Both styles have a velcro flap in the back for closure. All of our goal post pads meet NCAA and NFHS safety standards. Heavy-duty, 18 ounce coated vinyl nylon covers. Solid polyfoam cylinder with a center cutout to match your goal (please provide pole diameter or circumference when ordering). For custom logos you will want to choose the Elite or Classic style pads. School logos or promotionals are all available from Fisher.`,
         details: [
             'SKU: GPPL1',
-            'Transitions smoothly over grass',
-            'Builds upper and lower body strength',
-            'Live action spring makes player work hard to take sled to the ground'
+            'One color lettering',
+            'Letters are sewn onto the pad',
+            'Up to 8 letters per pad',
+            'Letters and vinyl available in 17 color options'
         ],
         options: [
-            '9201CS: Combat Sled w/ 9201 base',
-            '9301CS: Combat Sled w/ 9301 base',
-            '9910CS: Combat Sled w/ Rush Sled base'
+            `GPP400/401: 6'H x 13"Diam`,
+            `GPP300/301: 6'H x 18"Diam`,
+            `GPP200/201: 6'H x 22"Diam`,
+            `GPP4007/4017: 7'H x 13"Diam`,
+            `GPP3007/3017: 7'H x 18"Diam`,
+            `GPP2007/2017: 7'H x 22"Diam`
         ],
         category: 'football',
-        subCategory: 'sleds',
+        subCategory: 'field accessories',
         urlCategory: 'football',
-        urlSubCategory: 'sleds',
-        image: "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fcombat-sled-9301cs-HQ1.jpg?alt=media&token=5c4e19e9-c1ec-4360-ac02-58659a6e5d23",
+        urlSubCategory: 'field accessories',
+        image: "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fgoal-post-pad-gppl1-HQ1.jpg?alt=media&token=151ee26e-09fc-40b7-9c0d-03c13935fd14",
         images: [
-            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fcombat-sled-9301cs-HQ1.jpg?alt=media&token=5c4e19e9-c1ec-4360-ac02-58659a6e5d23",
-            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fcombat-sled-9301cs-HQ2.jpg?alt=media&token=7394df2c-1c19-4ae6-a796-fdd00f44536f"
+            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fgoal-post-pad-gppl1-HQ1.jpg?alt=media&token=151ee26e-09fc-40b7-9c0d-03c13935fd14",
+            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fgoal-post-pad-gppl1-HQ2.jpg?alt=media&token=4326baae-d449-40e5-9808-b8c2b3c5fa9f",
+            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fgoal-post-pad-cover-HQ1.jpg?alt=media&token=21a73d9f-09f5-4520-b254-24c8d993cf59",
+            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fgoal-post-pad-chart-HQ1.jpg?alt=media&token=27de2377-b7c3-4d26-9bb6-db31a3ecb349"
+        ]
+    },{
+        id: 'p54',
+        name: 'Traditional Goal Post Pad',
+        sku: 'gppl2',
+        description: `TWO color lettering, sewn onto the pad. Up to 8 letters per pad. Letters and vinyl available in 17 color options. These come in two closure styles. The Varsity series is a wrap style cover with top and bottom protection that increases durability The PRO series is a fully encased vinyl cover which keeps the foam dry and in perfect shape guaranteeing maximum lifespan. Both styles have a velcro flap in the back for closure. All of our goal post pads meet NCAA and NFHS safety standards. Heavy-duty, 18 ounce coated vinyl nylon covers. Solid polyfoam cylinder with a center cutout to match your goal (please provide pole diameter or circumference when ordering). For custom logos you will want to choose the Elite or Classic style pads. School logos or promotionals are all available from Fisher.`,
+        details: [
+            'SKU: GPPL2',
+            'Two color lettering',
+            'Letters are sewn onto the pad',
+            'Up to 8 letters per pad',
+            'Letters and vinyl available in 17 color options'
+        ],
+        options: [
+            `GPP400/401: 6'H x 13"Diam`,
+            `GPP300/301: 6'H x 18"Diam`,
+            `GPP200/201: 6'H x 22"Diam`,
+            `GPP4007/4017: 7'H x 13"Diam`,
+            `GPP3007/3017: 7'H x 18"Diam`,
+            `GPP2007/2017: 7'H x 22"Diam`
+        ],
+        category: 'football',
+        subCategory: 'field accessories',
+        urlCategory: 'football',
+        urlSubCategory: 'field accessories',
+        image: "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fgoal-post-pad-gppl2-HQ1.jpg?alt=media&token=4bc21117-3ecc-4192-85ef-7bda6a5ec58c",
+        images: [
+            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fgoal-post-pad-gppl2-HQ1.jpg?alt=media&token=4bc21117-3ecc-4192-85ef-7bda6a5ec58c",
+            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fgoal-post-pad-gppl2-HQ3.jpg?alt=media&token=a3382a4f-1178-4871-aa40-afd36b277623",
+            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fgoal-post-pad-cover-HQ1.jpg?alt=media&token=21a73d9f-09f5-4520-b254-24c8d993cf59",
+            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fgoal-post-pad-chart-HQ1.jpg?alt=media&token=27de2377-b7c3-4d26-9bb6-db31a3ecb349"
         ]
     }
 ]

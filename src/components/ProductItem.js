@@ -9,7 +9,6 @@ const ProductItem = props => {
         <div className="productItem">
             <Link to={`/${props.sku}/item`}>
                 <LazyImage src={props.image} alt={props.name} />
-                {/* <img src={props.image} alt={props.name}></img> */}
                 <h3>{props.name}</h3>
                 <p>{props.sku.toUpperCase()}</p>
             </Link>
