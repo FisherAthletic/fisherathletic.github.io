@@ -1,11 +1,5 @@
-/* .itemDiv {
-    display: grid;
-    margin: auto;
-    max-width: 1500px;
-}
-
-.backBtn {
-    grid-area: backBtn;
+.backBtnTop {
+    grid-area: backBtnTop;
 }
 
 .images {
@@ -18,4 +12,47 @@
 
 .details {
     grid-area: details;
-} */
+}
+
+.backBtnBott {
+    grid-area: backBtnBott;
+}
+
+.largeDiv {
+    display: grid;
+    grid-template-columns: 59% 39%;
+    grid-template-rows: auto;
+    margin: auto;
+    max-width: 1800px;
+    column-gap: 2%;
+    grid-template-areas:
+    "backBtnTop backBtnTop "
+    "images details"
+    ". details"
+}
+
+.mediumDiv {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    margin: auto;
+    max-width: 1000px;
+    grid-template-areas: 
+    'backBtnTop'
+    'images'
+    'details'
+    'backBtnBott';
+}
+
+.smallDiv {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    margin: auto;
+    max-width: 1500px;
+    grid-template-areas: 
+    'backBtnTop'
+    'images'
+    'details'
+    'backBtnBott';
+}

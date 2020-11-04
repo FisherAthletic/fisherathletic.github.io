@@ -8,7 +8,9 @@ const handleClick = () => {
 
 const BackButton = props => {
     return (
-        <button className="backButton" onClick={handleClick} >&lt; back</button>
+        <div className="backBtnTop">
+            <button className="backButton" onClick={handleClick} >&lt; back</button>
+        </div>
     )
 }
 

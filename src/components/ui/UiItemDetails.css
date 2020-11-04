@@ -1,16 +1,15 @@
-/* .uiItemDetails {
-    max-width: 1000px;
-} */
-
 .uiItemDetails li {
     border-bottom: 2px #242D33 solid;
-    /* padding: 0 0.5rem; */
+    padding: 0 1rem;
     /* list-style-type: square; */
 }
 
+.uiItemDetails p {
+    padding: 0 1rem;
+}
+
 .uiItemDetails h3 {
-    background: #242D33;
-    /* border-bottom: 1px white solid; */
+    background: #43474F;
     padding: 0.5rem;
     text-align: center;
 }

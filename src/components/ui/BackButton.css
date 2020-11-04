@@ -1,9 +1,10 @@
 .backButton {
-    background: #ff3434;
+    background: #008CFF;
     color: white;
     border: none;
     margin-top: 1rem;
     font-weight: bolder;
-    padding: 3px 7px;
+    padding: 5px 7px;
     cursor: pointer;
+    border-radius: 3px;
 }

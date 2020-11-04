@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 
 import Lightbox from 'react-awesome-lightbox'
+import QuoteBar from '../subComponents/QuoteBar'
 import "react-awesome-lightbox/build/style.css"
 import './UiItemCard.css'
 
@@ -23,7 +24,7 @@ const UiItemCard = props => {
     }
 
     return (
-        <div>
+        <div className="images">
             <div className="uiItemCard">
                 <h3>{props.name}</h3>
                 <img src={props.image} alt={props.name} onClick={() => openLightbox(0)} />
@@ -40,6 +41,7 @@ const UiItemCard = props => {
             </ul> : null}
             {lightboxShown ? <Lightbox images={props.images} title={props.name} onClose={closeLightbox} startIndex={imgIndex} /> : null}
             {singleLightboxShown ? <Lightbox image={props.image} title={props.name} onClose={closeLightbox} /> : null}
+            <QuoteBar className="quoteBar" />
         </div>
     )
 }

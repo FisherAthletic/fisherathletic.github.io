@@ -1456,14 +1456,14 @@ let productData = [
         images: [
             "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fgoal-post-pad-gppl1-HQ1.jpg?alt=media&token=151ee26e-09fc-40b7-9c0d-03c13935fd14",
             "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fgoal-post-pad-gppl1-HQ2.jpg?alt=media&token=4326baae-d449-40e5-9808-b8c2b3c5fa9f",
-            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fgoal-post-pad-cover-HQ1.jpg?alt=media&token=21a73d9f-09f5-4520-b254-24c8d993cf59",
+            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fgoal-post-pad-cover-chart-HQ1.jpg?alt=media&token=4a522db6-d615-4811-b49d-799784af64a2",
             "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fgoal-post-pad-chart-HQ1.jpg?alt=media&token=27de2377-b7c3-4d26-9bb6-db31a3ecb349"
         ]
     },{
         id: 'p54',
         name: 'Traditional Goal Post Pad',
         sku: 'gppl2',
-        description: `TWO color lettering, sewn onto the pad. Up to 8 letters per pad. Letters and vinyl available in 17 color options. These come in two closure styles. The Varsity series is a wrap style cover with top and bottom protection that increases durability The PRO series is a fully encased vinyl cover which keeps the foam dry and in perfect shape guaranteeing maximum lifespan. Both styles have a velcro flap in the back for closure. All of our goal post pads meet NCAA and NFHS safety standards. Heavy-duty, 18 ounce coated vinyl nylon covers. Solid polyfoam cylinder with a center cutout to match your goal (please provide pole diameter or circumference when ordering). For custom logos you will want to choose the Elite or Classic style pads. School logos or promotionals are all available from Fisher.`,
+        description: `Two color lettering, sewn onto the pad. Up to 8 letters per pad. Letters and vinyl available in 17 color options. These come in two closure styles. The Varsity series is a wrap style cover with top and bottom protection that increases durability The PRO series is a fully encased vinyl cover which keeps the foam dry and in perfect shape guaranteeing maximum lifespan. Both styles have a velcro flap in the back for closure. All of our goal post pads meet NCAA and NFHS safety standards. Heavy-duty, 18 ounce coated vinyl nylon covers. Solid polyfoam cylinder with a center cutout to match your goal (please provide pole diameter or circumference when ordering). For custom logos you will want to choose the Elite or Classic style pads. School logos or promotionals are all available from Fisher.`,
         details: [
             'SKU: GPPL2',
             'Two color lettering',
@@ -1487,8 +1487,115 @@ let productData = [
         images: [
             "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fgoal-post-pad-gppl2-HQ1.jpg?alt=media&token=4bc21117-3ecc-4192-85ef-7bda6a5ec58c",
             "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fgoal-post-pad-gppl2-HQ3.jpg?alt=media&token=a3382a4f-1178-4871-aa40-afd36b277623",
-            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fgoal-post-pad-cover-HQ1.jpg?alt=media&token=21a73d9f-09f5-4520-b254-24c8d993cf59",
+            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fgoal-post-pad-cover-chart-HQ1.jpg?alt=media&token=4a522db6-d615-4811-b49d-799784af64a2",
             "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fgoal-post-pad-chart-HQ1.jpg?alt=media&token=27de2377-b7c3-4d26-9bb6-db31a3ecb349"
+        ]
+    },{
+        id: 'p55',
+        name: 'Classic Goal Post Pad',
+        sku: 'gpplldp',
+        description: `Multi-colored lettering and logos printed on All of our goal post pads meet NCAA and NFHS safety standards. Heavy-duty, 18 ounce coated vinyl nylon covers. Solid polyfoam cylinder with a center cutout to match your goal (please provide pole diameter or circumference when ordering). Custom Logos: Add special logos to your Goal Post Pad(s) or Goal Post Pad Cap(s). School logos or promotionals are all available from Fisher. PRICING VARIES DEPENDING ON ART STYLE. CALL FOR YOUR QUOTE!`,
+        details: [
+            'SKU: GPPLLDP',
+            'Multi-colored lettering and logos',
+            'Lettering and logos are printed on pad',
+            'Solid background in one of our 17 vinyl colors'
+        ],
+        options: [
+            `GPP400/401: 6'H x 13"Diam`,
+            `GPP300/301: 6'H x 18"Diam`,
+            `GPP200/201: 6'H x 22"Diam`,
+            `GPP4007/4017: 7'H x 13"Diam`,
+            `GPP3007/3017: 7'H x 18"Diam`,
+            `GPP2007/2017: 7'H x 22"Diam`
+        ],
+        category: 'football',
+        subCategory: 'field accessories',
+        urlCategory: 'football',
+        urlSubCategory: 'field accessories',
+        image: "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fgoal-post-pad-gpplldp-HQ1.jpg?alt=media&token=1e3cb80b-8b56-47cb-9709-a68db6c8b970",
+        images: [
+            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fgoal-post-pad-gpplldp-HQ1.jpg?alt=media&token=1e3cb80b-8b56-47cb-9709-a68db6c8b970",
+            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fgoal-post-pad-gpplldp-HQ2.jpg?alt=media&token=fb9322c3-1dc6-4bd4-a526-1ef5d75cde2a",
+            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fgoal-post-pad-cover-chart-HQ1.jpg?alt=media&token=4a522db6-d615-4811-b49d-799784af64a2",
+            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fgoal-post-pad-chart-HQ1.jpg?alt=media&token=27de2377-b7c3-4d26-9bb6-db31a3ecb349"
+        ]
+    },{
+        id: 'p56',
+        name: 'Elite Goal Post Pad',
+        sku: 'gppedp',
+        description: `360 degree fully digital print graphics with unlimited colors. Pads printed with detailed, vibrant graphics that are sure to impress fans and opposing teams. This is the ultimate way to show off your schools brand. All of our goal post pads meet NCAA and NFHS safety standards. Heavy-duty, 18 ounce coated vinyl nylon covers. Solid polyfoam cylinder with a center cutout to match your goal (please provide pole diameter or circumference when ordering). Custom Logos: Add special logos to your Goal Post Pad(s) or Goal Post Pad Cap(s). School logos or promotionals are all available from Fisher. PRICING VARIES DEPENDING ON ART STYLE. CALL FOR YOUR QUOTE!`,
+        details: [
+            'SKU: GPPEDP',
+            '360˚ fully digitally printed graphics',
+            'Unlimited colors'
+        ],
+        options: [
+            `GPP400/401: 6'H x 13"Diam`,
+            `GPP300/301: 6'H x 18"Diam`,
+            `GPP200/201: 6'H x 22"Diam`,
+            `GPP4007/4017: 7'H x 13"Diam`,
+            `GPP3007/3017: 7'H x 18"Diam`,
+            `GPP2007/2017: 7'H x 22"Diam`
+        ],
+        category: 'football',
+        subCategory: 'field accessories',
+        urlCategory: 'football',
+        urlSubCategory: 'field accessories',
+        image: "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fgoal-post-pad-gppedp-HQ1.jpg?alt=media&token=cf157289-716e-40bd-a970-cbc438534306",
+        images: [
+            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fgoal-post-pad-gppedp-HQ1.jpg?alt=media&token=cf157289-716e-40bd-a970-cbc438534306",
+            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fgoal-post-pad-gppedp-HQ2.jpg?alt=media&token=7bf2fdb9-0262-44b4-974d-e81cf58df282",
+            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fgoal-post-pad-cover-chart-HQ1.jpg?alt=media&token=4a522db6-d615-4811-b49d-799784af64a2",
+            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fgoal-post-pad-chart-HQ1.jpg?alt=media&token=27de2377-b7c3-4d26-9bb6-db31a3ecb349"
+        ]
+    },{
+        id: 'p57',
+        name: 'Goal Post Pad Cap',
+        sku: 'gppc',
+        description: `Foam padded cap sits on top of any goal post pad. Add special logos to your Goal Post Pads or Goal Post Pad Caps. School logos or promotionals are all available from Fisher.`,
+        details: [
+            'SKU: GPPC',
+            'Great for advertising',
+            'Sits on top of your goal post pad'
+        ],
+        options: [
+            `GPPC13: 12"H x 13"Diam`,
+            `GPPC18: 12"H x 18"Diam`,
+            `GPPC22: 12"H x 22"Diam`
+        ],
+        category: 'football',
+        subCategory: 'field accessories',
+        urlCategory: 'football',
+        urlSubCategory: 'field accessories',
+        image: "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fgoal-post-pad-cap-gppc-HQ1.jpg?alt=media&token=a25e4aba-a72d-4a94-be08-df0654691027",
+        images: [
+            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fgoal-post-pad-cap-gppc-HQ1.jpg?alt=media&token=a25e4aba-a72d-4a94-be08-df0654691027",
+            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fgoal-post-pad-cap-gppc-HQ2.jpg?alt=media&token=f64807ba-b1b2-4ea7-ba2e-a66aab3708c9"
+        ]
+    },{
+        id: 'p58',
+        name: 'High School Goal Post',
+        sku: 'gp4pro30',
+        description: `Foam padded cap sits on top of any goal post pad. Add special logos to your Goal Post Pads or Goal Post Pad Caps. School logos or promotionals are all available from Fisher.`,
+        details: [
+            'SKU: GP4PRO30',
+            'Primed and ready to paint',
+            ''
+        ],
+        options: [
+            `GPPC13: 12"H x 13"Diam`,
+            `GPPC18: 12"H x 18"Diam`,
+            `GPPC22: 12"H x 22"Diam`
+        ],
+        category: 'football',
+        subCategory: 'field accessories',
+        urlCategory: 'football',
+        urlSubCategory: 'field accessories',
+        image: "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fgoal-post-pad-cap-gppc-HQ1.jpg?alt=media&token=a25e4aba-a72d-4a94-be08-df0654691027",
+        images: [
+            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fgoal-post-pad-cap-gppc-HQ1.jpg?alt=media&token=a25e4aba-a72d-4a94-be08-df0654691027",
+            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fgoal-post-pad-cap-gppc-HQ2.jpg?alt=media&token=f64807ba-b1b2-4ea7-ba2e-a66aab3708c9"
         ]
     }
 ]
