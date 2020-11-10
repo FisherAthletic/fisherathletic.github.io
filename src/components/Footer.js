@@ -2,16 +2,15 @@ import React from "react"
 
 function Footer() {
     const footerStyle = {
-        position: 'fixed',
         color: 'white',
         backgroundColor: '#242D33',
-        height: '200px',
-        borderTop: '4px blue solid',
-        bottom: '-100px'
+        height: '500px',
+        bottom: '-100px',
+        margin: '3rem 0 0 0',
+        textAlign: 'center'
     }
     return (
         <div style={footerStyle}>
-            <h1>footer will go here</h1>
         </div>
     )
 }

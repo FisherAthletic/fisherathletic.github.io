@@ -1,6 +1,6 @@
 .uiItemDetails li {
-    border-bottom: 2px #242D33 solid;
-    padding: 0 1rem;
+    /* border-left: 2px lightblue solid; */
+    padding: 0.4rem 1rem;
     /* list-style-type: square; */
 }
 
@@ -9,7 +9,18 @@
 }
 
 .uiItemDetails h3 {
-    background: #43474F;
+    /* background: #43474F; */
     padding: 0.5rem;
-    text-align: center;
+    margin-bottom: 0;
+    text-align: left;
+    color: white;
+    border-bottom: 1px lightblue solid;
+}
+
+.uiDetailList {
+    margin: 0 0 2rem 0;
+}
+
+.uiItemDetails p {
+    margin: 0.5rem 0 0 0;
 }

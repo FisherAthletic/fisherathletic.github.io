@@ -4,6 +4,9 @@
 
 .images {
     grid-area: images;
+    /* position: -webkit-sticky;
+    position: sticky;
+    top: 70px; */
 }
 
 .quoteBar {

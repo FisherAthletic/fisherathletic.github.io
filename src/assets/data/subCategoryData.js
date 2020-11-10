@@ -27,7 +27,7 @@ let subCategoryData = [
     },{
         id: 'c1-6',
         name: 'Field Accessories',
-        urlName: 'field accessories',
+        urlName: 'field',
         main: 'Football'
     },{
         id: 'c1-7',

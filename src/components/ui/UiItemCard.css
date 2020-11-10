@@ -9,8 +9,13 @@
 
 .uiItemCard h3 {
     padding: 0.5rem;
-    background: #43474F;
+    margin-bottom: 0;
+    /* font-size: 2rem; */
+    /* background: #43474F; */
+    /* border-bottom: 1px lightblue solid; */
     /* margin: 0.5rem 0 1rem 0; */
+    color: white;
+    text-align: left;
 }
 
 .uiItemCard img {

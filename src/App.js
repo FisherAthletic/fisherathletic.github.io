@@ -11,6 +11,7 @@ import SubCategories from './components/pages/SubCategories';
 import Item from './components/pages/Item'
 import Search from './components/Search'
 import User from './components/User'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -41,6 +42,7 @@ function App() {
           <Route exact path="/search"><Search/></Route>
           <Route exact path="/user"><User/></Route>
         </div>
+          {/* <Footer /> */}
       </Router>
     )
 }
