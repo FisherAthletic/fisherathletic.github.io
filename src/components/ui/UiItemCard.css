@@ -25,11 +25,20 @@
 
 .itemImgBar {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto auto;
     /* max-width: 1000px; */
     margin-top: 1rem;
     padding: 0 0 0 0;
     overflow: hidden;
+}
+
+.itemImgBar img {
+    max-width: 270px;
+}
+
+.seeMoreImg {
+    cursor: pointer;
 }
 
 .itemImgList {
