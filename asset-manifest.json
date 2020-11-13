@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/website-reactjs/static/css/main.7c913400.chunk.css",
-    "main.js": "/website-reactjs/static/js/main.15216c2b.chunk.js",
-    "main.js.map": "/website-reactjs/static/js/main.15216c2b.chunk.js.map",
+    "main.css": "/website-reactjs/static/css/main.c72e9cfb.chunk.css",
+    "main.js": "/website-reactjs/static/js/main.69019417.chunk.js",
+    "main.js.map": "/website-reactjs/static/js/main.69019417.chunk.js.map",
     "runtime-main.js": "/website-reactjs/static/js/runtime-main.aea72e68.js",
     "runtime-main.js.map": "/website-reactjs/static/js/runtime-main.aea72e68.js.map",
     "static/css/2.860010f5.chunk.css": "/website-reactjs/static/css/2.860010f5.chunk.css",
-    "static/js/2.20648b9c.chunk.js": "/website-reactjs/static/js/2.20648b9c.chunk.js",
-    "static/js/2.20648b9c.chunk.js.map": "/website-reactjs/static/js/2.20648b9c.chunk.js.map",
+    "static/js/2.d8841453.chunk.js": "/website-reactjs/static/js/2.d8841453.chunk.js",
+    "static/js/2.d8841453.chunk.js.map": "/website-reactjs/static/js/2.d8841453.chunk.js.map",
     "index.html": "/website-reactjs/index.html",
-    "precache-manifest.1001afb69246e045d377a639a5d27813.js": "/website-reactjs/precache-manifest.1001afb69246e045d377a639a5d27813.js",
+    "precache-manifest.18234f79dca783096df1e5d4cad4ea82.js": "/website-reactjs/precache-manifest.18234f79dca783096df1e5d4cad4ea82.js",
     "service-worker.js": "/website-reactjs/service-worker.js",
     "static/css/2.860010f5.chunk.css.map": "/website-reactjs/static/css/2.860010f5.chunk.css.map",
-    "static/css/main.7c913400.chunk.css.map": "/website-reactjs/static/css/main.7c913400.chunk.css.map",
-    "static/js/2.20648b9c.chunk.js.LICENSE.txt": "/website-reactjs/static/js/2.20648b9c.chunk.js.LICENSE.txt",
+    "static/css/main.c72e9cfb.chunk.css.map": "/website-reactjs/static/css/main.c72e9cfb.chunk.css.map",
+    "static/js/2.d8841453.chunk.js.LICENSE.txt": "/website-reactjs/static/js/2.d8841453.chunk.js.LICENSE.txt",
     "static/media/fisher-logo-01.svg": "/website-reactjs/static/media/fisher-logo-01.ac77a555.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.aea72e68.js",
     "static/css/2.860010f5.chunk.css",
-    "static/js/2.20648b9c.chunk.js",
-    "static/css/main.7c913400.chunk.css",
-    "static/js/main.15216c2b.chunk.js"
+    "static/js/2.d8841453.chunk.js",
+    "static/css/main.c72e9cfb.chunk.css",
+    "static/js/main.69019417.chunk.js"
   ]
 }
