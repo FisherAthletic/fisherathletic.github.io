@@ -8,3 +8,19 @@
     list-style: none;
     text-decoration: none;
 }
+
+.uiList li {
+    animation-duration: 0.3s;
+    animation-name: slideLeft;
+}
+
+@keyframes slideLeft {
+    from {
+        margin-left: 100%;
+        width: 500%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}

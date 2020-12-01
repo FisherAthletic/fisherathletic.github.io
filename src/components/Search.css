@@ -1,28 +1,31 @@
 .item-b {
     grid-area: searchButton;
     cursor: pointer;
-    background: #ff3434;
+    background: #485a69;
     color: white;
     border: none;
     padding: 3px 7px;
     width: 100%;
     height: 100%;
     font-size: large;
+    max-width: 500px;
+    border-radius: 0.2rem;
 }
 
-.item-b :hover {
-    background: khaki;
+.item-b:hover {
+    background-color: #008bfd;
 }
 
 .item-a {
-    grid-area: searchBar;
+    grid-area: searchInput;
     width: 100%;
     border: none;
     padding: 0.3rem 0.5rem;
-    font-weight: bolder;
     font-size: large;
     text-align: center;
-    caret-color: red;
+    caret-color: #008bfd;
+    max-width: 700px;
+    border-radius: 0.2rem;
 }
 
 .item-a:focus {
@@ -35,8 +38,8 @@
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-template-areas:
-    "searchBar"
+    "searchInput"
     "searchButton";
-    margin: 1rem 0 0 0;
-    max-width: 700px;
+    margin: 3vh 0 0 0;
+    justify-items: center;
 }

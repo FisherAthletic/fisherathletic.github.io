@@ -8,3 +8,7 @@
     cursor: pointer;
     border-radius: 3px;
 }
+
+.backButton:hover {
+    background-color: #008bfd;
+}
