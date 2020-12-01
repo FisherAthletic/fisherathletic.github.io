@@ -6,7 +6,6 @@ import ImageIcon from '@material-ui/icons/Image';
 import "react-awesome-lightbox/build/style.css"
 import './UiItemCard.css'
 
-
 const UiItemCard = props => {
     const [lightboxShown, setLightboxShown] = useState(false)
     const [singleLightboxShown, setSingleLightboxShown] = useState(false)
