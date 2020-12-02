@@ -1,6 +1,7 @@
 .intro_container {
     display: grid;
     margin: 1rem 0 7vh 0;
+    text-align: center;
 }
 
 .intro_container h1 {

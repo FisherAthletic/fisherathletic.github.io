@@ -10,6 +10,8 @@
     font-size: large;
     max-width: 500px;
     border-radius: 0.2rem;
+    animation-duration: 0.7s;
+    animation-name: slideLeft;
 }
 
 .item-b:hover {
@@ -26,6 +28,8 @@
     caret-color: #008bfd;
     max-width: 700px;
     border-radius: 0.2rem;
+    animation-duration: 0.7s;
+    animation-name: slideLeft;
 }
 
 .item-a:focus {
@@ -42,4 +46,15 @@
     "searchButton";
     margin: 3vh 0 0 0;
     justify-items: center;
+}
+
+@keyframes slideLeft {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
 }

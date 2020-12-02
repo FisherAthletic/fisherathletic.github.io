@@ -7,7 +7,10 @@ import subCategoryData from '../../assets/data/subCategoryData'
 import IntroSection from '../subComponents/IntroSection'
 
 const urlConvertToTitle = input => {
-    return input.charAt(0).toUpperCase() + input.slice(1)
+    let title = input
+    title = title.replace('&', ' & ')
+    title = title.replace('+', ' ')
+    return title
 }
 
 const SubCategories = props => {
