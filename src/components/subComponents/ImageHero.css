@@ -1,16 +1,22 @@
 .container {
-    display: grid;
     position: relative;
-    margin: 1rem 0 0 0;
 }
 
 .container img {
     width: 100%;
 }
 
-.text_container {
+.text_container_middle {
     position: absolute;
-    bottom: 8px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text_container_bottom {
+    position: absolute;
+    bottom: 16px;
     right: 16px;
     text-align: right;
 }
