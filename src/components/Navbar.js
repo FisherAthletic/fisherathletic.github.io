@@ -162,7 +162,7 @@ function MiniDrawer() {
           </IconButton>
         </div>
         <List>
-        <Link to="/" style={navLinks} title="Home">
+        <Link to="/" style={navLinks} title="Home" onClick={handleDrawerClose}>
           <ListItem button key={"Home"}>
               <ListItemIcon>
                 <HomeIcon style={{color: "white"}} />
@@ -170,7 +170,7 @@ function MiniDrawer() {
             <ListItemText primary={"Home"} />
           </ListItem>
         </Link>
-        <Link to="/categories" style={navLinks} title="Products">
+        <Link to="/categories" style={navLinks} title="Products" onClick={handleDrawerClose}>
           <ListItem button key={"Products"}>
               <ListItemIcon>
                 <SportsFootballIcon style={{color: "white"}} />
@@ -178,7 +178,7 @@ function MiniDrawer() {
             <ListItemText primary={"Products"} />
           </ListItem>
         </Link>
-        <Link to="/catalogs" style={navLinks} title="Catalogs">
+        <Link to="/catalogs" style={navLinks} title="Catalogs" onClick={handleDrawerClose}>
           <ListItem button key={"Catalogs"}>
               <ListItemIcon>
                 <ImportContactsIcon style={{color: "white"}} />
@@ -186,7 +186,7 @@ function MiniDrawer() {
             <ListItemText primary={"Catalogs"} />
           </ListItem>
         </Link>
-        <Link to="/contact" style={navLinks} title="Contact">
+        <Link to="/contact" style={navLinks} title="Contact" onClick={handleDrawerClose}>
           <ListItem button key={"Contact"}>
               <ListItemIcon>
                 <QuestionAnswerIcon style={{color: "white"}} />
@@ -194,7 +194,7 @@ function MiniDrawer() {
             <ListItemText primary={"Contact"} />
           </ListItem>
         </Link>
-        <Link to="/search" style={navLinks} title="Search">
+        <Link to="/search" style={navLinks} title="Search" onClick={handleDrawerClose}>
           <ListItem button key={"Search"}>
               <ListItemIcon>
                 <SearchIcon style={{color: "white"}} />

@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 
 import Lightbox from 'react-awesome-lightbox'
 import QuoteBar from '../subComponents/QuoteBar'
-import ImageIcon from '@material-ui/icons/Image';
 import "react-awesome-lightbox/build/style.css"
 import './UiItemCard.css'
 

@@ -1,6 +1,7 @@
 import React from "react"
 import Catalog from "./subComponents/Catalog"
 import catalogData from '../assets/data/catalogData'
+import IntroSection from './subComponents/IntroSection'
 
 import './Catalogs.css'
 
@@ -15,10 +16,10 @@ const catalogList = catalogData.map(item =>
 const Catalogs = () => {
     return(
         <div>
-            <h1>Catalogs</h1>
-                <div className="catalog_grid">
-                    {catalogList}
-                </div>
+            <IntroSection header="Catalogs" subHeader="Browse our most recent catalogs." />
+            <div className="catalog_grid">
+                {catalogList}
+            </div>
         </div>
     )
 }

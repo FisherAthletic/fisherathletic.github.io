@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom'
 import BackButton from './ui/BackButton'
 import ProductList from './ProductList'
 import productData from '../assets/data/productData'
+import IntroSection from './subComponents/IntroSection'
 
 const Products = props => {
     const url = useParams().products
@@ -58,7 +59,8 @@ const Products = props => {
     return (
         <div>
             <BackButton />
-            <h3 style={{color: 'lightgray', borderBottom: '1px lightgray solid', padding: '0 0 0.3rem 0'}}>Search results for: {url.replace('+all', '')}</h3>
+            <IntroSection header="Products" subHeader={`Find amazing items from Fisher Athletic.`} />
+            <h3 style={{color: 'lightgray', padding: '0.5rem 0 0.5rem 0', fontWeight: 'lighter', background: '#242D33', textAlign: 'center'}}>Search results for: {url.replace('+all', '')}</h3>
             <ProductList items={loadedProducts} />
             {/* <h3>{urlSpaceToPlus}</h3> */}
             {/* <h3>{output}</h3> */}
