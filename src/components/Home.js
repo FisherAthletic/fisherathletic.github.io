@@ -1,9 +1,12 @@
 import React from "react"
+import ImageHeroSplit from './subComponents/ImageHeroSplit'
 
 function Home() {
     return (
         <div>
-            <h1>Home</h1>
+            <ImageHeroSplit />
+            <ImageHeroSplit />
+            <ImageHeroSplit />
         </div>
     )
 }
