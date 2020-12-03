@@ -33,7 +33,6 @@ function App() {
         <div style={isNavSmall ? offsetSmall : offset}>
           <Navbar />
           <Route exact path="/"><Home/></Route>
-          <Route exact path="/website-reactjs"><Home/></Route>
           <Route exact path="/catalogs"><Catalogs/></Route>
           <Route exact path="/contact"><Contact/></Route>
           <Route exact path="/categories"><Categories/></Route>
