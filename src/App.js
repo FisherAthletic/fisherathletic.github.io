@@ -42,7 +42,6 @@ function App() {
           <Route exact path="/search"><Search/></Route>
           <Route exact path="/user"><User/></Route>
         </div>
-          {/* <Footer /> */}
       </Router>
     )
 }
