@@ -1,0 +1,33 @@
+.footer_container {
+    display: grid;
+    color: white;
+    background: #1B2226;
+    height: 200px;
+    width: 100%;
+    margin: 10rem 0 0 0;
+    padding: 0 0 0 65px;
+    text-align: center;
+}
+
+.footer_container_sm {
+    display: grid;
+    color: white;
+    background: #1B2226;
+    height: 200px;
+    width: 100%;
+    margin: 5rem 0 0 0;
+    padding: 0 0 0 58px;
+    text-align: center;
+}
+
+.footer_container a {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+.footer_container_sm a {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}

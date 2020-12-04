@@ -1,6 +1,9 @@
 .uiList {
+    display: grid;
+    gap: 1rem;
     list-style-type: none;
     padding: 0px 0px 0px 0px;
+    text-align: center;
 }
 
 .uiList a {
@@ -10,8 +13,14 @@
 }
 
 .uiList li {
+    background: #242D33;
+    border-radius: 5px;
     animation-duration: 0.3s;
     animation-name: slideLeft;
+}
+
+.uiList li:hover {
+    background: #008bfd;
 }
 
 @keyframes slideLeft {

@@ -1,0 +1,25 @@
+.social_media_bar_con {
+    display: grid;
+    background: #00a2ff;
+    line-height: 0;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    grid-template-areas:
+    'facebook twitter';
+}
+
+.social_media_bar_con a {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+.fb_item {
+    grid-area: facebook;
+    justify-self: right;
+}
+
+.twitter_item {
+    grid-area: twitter;
+    justify-self: left;
+}

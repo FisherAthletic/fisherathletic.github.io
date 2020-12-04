@@ -1,4 +1,5 @@
 import React from 'react';
+import { FormspreeProvider } from '@formspree/react'
 import Navbar from "./components/Navbar"
 import Home from "./components/Home"
 import Products from "./components/Products"
@@ -12,6 +13,8 @@ import Item from './components/pages/Item'
 import Search from './components/Search'
 import User from './components/User'
 import Footer from './components/Footer'
+import Downloads from './components/Downloads'
+import Policies from './components/Policies'
 
 function App() {
 
@@ -29,20 +32,25 @@ function App() {
         padding: "0.4rem 1rem"
     }
     return (
-      <Router>
-        <div style={isNavSmall ? offsetSmall : offset}>
+      <FormspreeProvider project="1560865689529482483">
+        <Router>
           <Navbar />
-          <Route exact path="/"><Home/></Route>
-          <Route exact path="/catalogs"><Catalogs/></Route>
-          <Route exact path="/contact"><Contact/></Route>
-          <Route exact path="/categories"><Categories/></Route>
-          <Route exact path="/:subCategory/subCategories"><SubCategories/></Route>
-          <Route exact path="/:products/products"><Products/></Route>
-          <Route exact path="/:item/item"><Item/></Route>
-          <Route exact path="/search"><Search/></Route>
-          <Route exact path="/user"><User/></Route>
-        </div>
-      </Router>
+            <div style={isNavSmall ? offsetSmall : offset}>
+              <Route exact path="/"><Home/></Route>
+              <Route exact path="/catalogs"><Catalogs/></Route>
+              <Route exact path="/contact"><Contact/></Route>
+              <Route exact path="/categories"><Categories/></Route>
+              <Route exact path="/:subCategory/subCategories"><SubCategories/></Route>
+              <Route exact path="/:products/products"><Products/></Route>
+              <Route exact path="/:item/item"><Item/></Route>
+              <Route exact path="/search"><Search/></Route>
+              <Route exact path="/user"><User/></Route>
+              <Route exact path='/downloads'><Downloads /></Route>
+              <Route exact path='/policies'><Policies /></Route>
+            </div>
+          <Footer class={isNavSmall ? 'footer_container_sm' : 'footer_container'}/>
+        </Router>
+      </FormspreeProvider>
     )
 }
 
