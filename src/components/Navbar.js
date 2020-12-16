@@ -17,11 +17,11 @@ import ListItemText from '@material-ui/core/ListItemText';
 import HomeIcon from "@material-ui/icons/Home";
 import SportsFootballIcon from '@material-ui/icons/SportsFootball';
 import ImportContactsIcon from '@material-ui/icons/ImportContacts';
-import QuestionAnswerIcon from '@material-ui/icons/QuestionAnswer';
+import Send from '@material-ui/icons/Send';
 import SearchIcon from '@material-ui/icons/Search';
 import Logo from "./subComponents/Logo"
+import Tooltip from '@material-ui/core/Tooltip';
 import { Link } from "react-router-dom"
-
 
 const drawerWidth = 200;
 
@@ -162,46 +162,56 @@ function MiniDrawer() {
           </IconButton>
         </div>
         <List>
-        <Link to="/" style={navLinks} title="Home" onClick={handleDrawerClose}>
-          <ListItem button key={"Home"}>
-              <ListItemIcon>
-                <HomeIcon style={{color: "white"}} />
-              </ListItemIcon>
-            <ListItemText primary={"Home"} />
-          </ListItem>
-        </Link>
-        <Link to="/categories" style={navLinks} title="Products" onClick={handleDrawerClose}>
-          <ListItem button key={"Products"}>
-              <ListItemIcon>
-                <SportsFootballIcon style={{color: "white"}} />
-              </ListItemIcon>
-            <ListItemText primary={"Products"} />
-          </ListItem>
-        </Link>
-        <Link to="/catalogs" style={navLinks} title="Catalogs" onClick={handleDrawerClose}>
-          <ListItem button key={"Catalogs"}>
-              <ListItemIcon>
-                <ImportContactsIcon style={{color: "white"}} />
-              </ListItemIcon>
-            <ListItemText primary={"Catalogs"} />
-          </ListItem>
-        </Link>
-        <Link to="/contact" style={navLinks} title="Contact" onClick={handleDrawerClose}>
-          <ListItem button key={"Contact"}>
-              <ListItemIcon>
-                <QuestionAnswerIcon style={{color: "white"}} />
-              </ListItemIcon>
-            <ListItemText primary={"Contact"} />
-          </ListItem>
-        </Link>
-        <Link to="/search" style={navLinks} title="Search" onClick={handleDrawerClose}>
-          <ListItem button key={"Search"}>
-              <ListItemIcon>
-                <SearchIcon style={{color: "white"}} />
-              </ListItemIcon>
-            <ListItemText primary={"Search"} />
-          </ListItem>
-        </Link>
+          <Tooltip title='Home' placement='right'>
+            <Link to="/" style={navLinks} title="Home" onClick={handleDrawerClose}>
+              <ListItem button key={"Home"}>
+                  <ListItemIcon>
+                    <HomeIcon style={{color: "white"}} />
+                  </ListItemIcon>
+                <ListItemText primary={"Home"} />
+              </ListItem>
+            </Link>
+          </Tooltip>
+          <Tooltip title='Products' placement='right'>
+            <Link to="/categories" style={navLinks} title="Products" onClick={handleDrawerClose}>
+              <ListItem button key={"Products"}>
+                  <ListItemIcon>
+                    <SportsFootballIcon style={{color: "white"}} />
+                  </ListItemIcon>
+                <ListItemText primary={"Products"} />
+              </ListItem>
+            </Link>
+          </Tooltip>
+          <Tooltip title='Catalogs' placement='right'>
+            <Link to="/catalogs" style={navLinks} title="Catalogs" onClick={handleDrawerClose}>
+              <ListItem button key={"Catalogs"}>
+                  <ListItemIcon>
+                    <ImportContactsIcon style={{color: "white"}} />
+                  </ListItemIcon>
+                <ListItemText primary={"Catalogs"} />
+              </ListItem>
+            </Link>
+          </Tooltip>
+          <Tooltip title='Contact' placement='right'>
+            <Link to="/contact" style={navLinks} title="Contact" onClick={handleDrawerClose}>
+              <ListItem button key={"Contact"}>
+                  <ListItemIcon>
+                    <Send style={{color: "white"}} />
+                  </ListItemIcon>
+                <ListItemText primary={"Contact"} />
+              </ListItem>
+            </Link>
+        </Tooltip>
+        <Tooltip title='Search' placement='right'>
+          <Link to="/search" style={navLinks} title="Search" onClick={handleDrawerClose}>
+            <ListItem button key={"Search"}>
+                <ListItemIcon>
+                  <SearchIcon style={{color: "white"}} />
+                </ListItemIcon>
+              <ListItemText primary={"Search"} />
+            </ListItem>
+          </Link>
+        </Tooltip>
         </List>
       </Drawer>
     </div>

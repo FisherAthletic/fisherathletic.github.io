@@ -4,11 +4,12 @@
     grid-template-rows: auto;
     gap: 2rem;
     background: #242D33;
-    padding: 4rem 2rem;
+    padding: 2rem 2rem;
     /* border: 5px solid red; */
     border-radius: 5px;
     justify-items: center;
     grid-template-areas: 
+    "formEmailIcon"
     "formName"
     "formEmail"
     "formMessage"
@@ -24,7 +25,7 @@
     border: none;
     padding: 0.3rem 0;
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-    animation-duration: 1s;
+    animation-duration: 0.5s;
     animation-name: slideLeft;
 }
 
@@ -41,12 +42,16 @@
     border: none;
     padding: 0.3rem 0;
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-    animation-duration: 1s;
+    animation-duration: 0.5s;
     animation-name: slideLeft;
 }
 
 .contact_form_con textarea:focus {
     outline: none;
+}
+
+.form_email_icon {
+    grid-area: formEmailIcon;
 }
 
 .form_name {

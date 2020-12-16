@@ -20,7 +20,7 @@ const Footer = props => {
                 </Link>
             </div>
             <div className='copyright_footer'>
-                <p>© 2020 Copyright: Fisher Athletic Equipment</p>
+                <p>© 2021 Copyright: Fisher Athletic Equipment</p>
             </div>
         </div>
     )

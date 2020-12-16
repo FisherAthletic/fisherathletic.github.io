@@ -1,19 +1,17 @@
 import React from 'react'
 import { useForm, ValidationError } from '@formspree/react'
+import EmailIcon from '@material-ui/icons/Email';
 
 import './ContactForm.css'
 
 const ContactForm = props => {
     const [state, handleSubmit] = useForm('contactForm')
     if (state.succeeded) {
-        return <div>Thank you for signing up!</div>
+        return <div>Message Sent!</div>
     }
     return (
             <form onSubmit={handleSubmit} className='contact_form'>
-                
-                {/* <label htmlFor="name">
-                  Name
-                </label> */}
+                <EmailIcon className='form_email_icon' fontSize='large' />
                 <input
                   id="name"
                   type="text" 
@@ -26,10 +24,6 @@ const ContactForm = props => {
                   field="name"
                   errors={state.errors}
                 />
-
-                {/* <label htmlFor="email">
-                  Email Address
-                </label> */}
                 <input
                   id="email"
                   type="email" 
@@ -42,10 +36,6 @@ const ContactForm = props => {
                   field="email"
                   errors={state.errors}
                 />
-
-                {/* <label htmlFor="message">
-                  Message
-                </label> */}
                 <textarea
                   id="message"
                   name="message"
@@ -57,7 +47,6 @@ const ContactForm = props => {
                   field="message"
                   errors={state.errors}
                 />
-
                 <button type="submit" disabled={state.submitting} className='form_submit_btn'>
                   Send
                 </button>

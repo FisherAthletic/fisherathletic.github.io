@@ -4,7 +4,7 @@
 }
 
 .catalog_image {
-    animation-duration: 0.7s;
+    animation-duration: 0.5s;
     animation-name: slideLeft;
 }
 
@@ -13,7 +13,7 @@
     line-height: 0;
     color: white;
     font-weight: lighter;
-    animation-duration: 1s;
+    animation-duration: 0.5s;
     animation-name: slideLeft;
 }
 
