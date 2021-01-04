@@ -2294,7 +2294,7 @@ let productData = [
         id: 'p83',
         name: 'Power Blaster',
         sku: 'bla12hd9002m',
-        description: `Teaches players to lower shoulders, explode through the defense and hold on to the ball. Great for both offensive and defensive skills. Improve quickness, agility, leg drive, ball security, and proper footwork. Increases repititions and decreases injuries. Variable resistance from 22-250 lbs per arm. Pads adjust up and down.`,
+        description: `Teaches players to lower shoulders, explode through the defense and hold on to the ball. Great for both offensive and defensive skills. Improve quickness, agility, leg drive, ball security, and proper footwork. Increases repititions and decreases injuries. Variable resistance from 25-250 lbs per arm. Pads adjust up and down.`,
         details: [
             'SKU: BLA12HD9002M',
             'A great tool for teaching player aggresiveness and the importance of covering the ball',
@@ -2326,7 +2326,7 @@ let productData = [
         id: 'p84',
         name: 'Blaster 12',
         sku: `blaster12`,
-        description: `Teaches players to lower shoulders, explode through the defense and hold on to the ball. Great for both offensive and defensive skills. Improve quickness, agility, leg drive, ball security, and proper footwork. Increases repititions and decreases injuries. Variable resistance from 22-250 lbs per arm. Pads adjust up and down.`,
+        description: `Teaches players to lower shoulders, explode through the defense and hold on to the ball. Great for both offensive and defensive skills. Improve quickness, agility, leg drive, ball security, and proper footwork. Increases repititions and decreases injuries. Variable resistance from 25-250 lbs per arm. Pads adjust up and down.`,
         details: [
             'SKU: BLASTER12',
             'A great tool for teaching player aggresiveness and the importance of covering the ball',
@@ -2354,7 +2354,7 @@ let productData = [
         id: 'p85',
         name: 'Blaster with Hanging Dummy',
         sku: `bla12hd`,
-        description: `Teaches players to lower shoulders, explode through the defense and hold on to the ball. Great for both offensive and defensive skills. Improve quickness, agility, leg drive, ball security, and proper footwork. Increases repititions and decreases injuries. Variable resistance from 22-250 lbs per arm. Pads adjust up and down.`,
+        description: `Teaches players to lower shoulders, explode through the defense and hold on to the ball. Great for both offensive and defensive skills. Improve quickness, agility, leg drive, ball security, and proper footwork. Increases repititions and decreases injuries. Variable resistance from 25-250 lbs per arm. Pads adjust up and down.`,
         details: [
             'SKU: BLA12HD',
             'Hanging Dummy is manufactured with 18 oz coated vinyl',
@@ -2384,7 +2384,7 @@ let productData = [
         id: 'p86',
         name: 'Blaster with Boomer Sled Pad',
         sku: `bla129002`,
-        description: `Teaches players to lower shoulders, explode through the defense and hold on to the ball. Great for both offensive and defensive skills. Improve quickness, agility, leg drive, ball security, and proper footwork. Increases repititions and decreases injuries. Variable resistance from 22-250 lbs per arm. Pads adjust up and down.`,
+        description: `Teaches players to lower shoulders, explode through the defense and hold on to the ball. Great for both offensive and defensive skills. Improve quickness, agility, leg drive, ball security, and proper footwork. Increases repititions and decreases injuries. Variable resistance from 25-250 lbs per arm. Pads adjust up and down.`,
         details: [
             'SKU: BLA129002',
             `12 arms for greater resistance`,
@@ -2410,6 +2410,32 @@ let productData = [
             "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fblaster-with-boomer-sled-pads-bla129002-HQ1.jpg?alt=media&token=a1e0e11c-aaa7-44c8-ba82-51b1fb01dfd1",
             "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fblaster-with-boomer-sled-pads-bla129002-HQ2.jpg?alt=media&token=fb2d91b5-f896-4b63-b0d1-b3df29b4fc39",
             "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fblaster-with-boomer-sled-pads-options-HQ1.jpg?alt=media&token=5e07cd5c-81af-417d-9a05-16a14e6cf4d9"
+        ]
+    },{
+        id: 'p87',
+        name: 'Blaster',
+        sku: `blaster`,
+        description: `Arms adjust from 25 to 250 lbs each. Arms can be locked back out of the way. Arms adjustable in tension, height and angle. Arms won't break and fall off. Heavy duty steel cast parts. Once properly assembled and installed, the original Smitty's Blaster will provide years of trouble-free service. Due to its size, the Blaster is shipped disassembled, however complete and easy to follow instructions are included. To assure that your Blaster will always be in top notch condition, we carry a complete inventory of replacement parts. To order a Blaster parts list call 1-800-438-6028. The Blaster is shipped Freight On Board Salisbury, NC.`,
+        details: [
+            'SKU: BLASTER',
+            `Easy to set up`,
+            `Arms adjust from 25 to 250 lbs each`,
+            `Lifetime warranty on arms`,
+            `5 year warranty on Blaster`,
+        ],
+        options: [
+            `BLA129002M: Man Pad`,
+            `BLA129002T: "T" Pad`,
+            `BLA129002C: Cone Pad`
+        ],
+        category: 'football',
+        subCategory: 'blasters',
+        urlCategory: 'football',
+        urlSubCategory: 'blasters',
+        image: "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fblaster-HQ1.jpg?alt=media&token=82c8d10d-e197-4b7a-aa9d-1131f6a9eb99",
+        images: [
+            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fblaster-HQ1.jpg?alt=media&token=82c8d10d-e197-4b7a-aa9d-1131f6a9eb99",
+            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fblaster-HQ2.jpg?alt=media&token=518c2140-c87e-4d79-b72d-4d9956b9e11a"
         ]
     }
 ]
