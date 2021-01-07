@@ -10,13 +10,15 @@ const CategoryList = props => {
         )
     }
     return (
-        <ul className="uiList">
+        <ul className="category-grid">
             {props.items.map(item => (
                 <CategoryItem
+                    className='category-block'
                     key={item.id}
                     id={item.id}
                     name={item.name}
                     urlName={item.urlName}
+                    image={item.coverImg}
                 />
             ))}
         </ul>

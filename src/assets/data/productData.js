@@ -2424,9 +2424,7 @@ let productData = [
             `5 year warranty on Blaster`,
         ],
         options: [
-            `BLA129002M: Man Pad`,
-            `BLA129002T: "T" Pad`,
-            `BLA129002C: Cone Pad`
+            ``
         ],
         category: 'football',
         subCategory: 'blasters',
@@ -2436,6 +2434,70 @@ let productData = [
         images: [
             "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fblaster-HQ1.jpg?alt=media&token=82c8d10d-e197-4b7a-aa9d-1131f6a9eb99",
             "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fblaster-HQ2.jpg?alt=media&token=518c2140-c87e-4d79-b72d-4d9956b9e11a"
+        ]
+    },{
+        id: 'p88',
+        name: 'Power Frame',
+        sku: `pf1021654`,
+        description: `Beam height adjusts from 76" to 92". Easy set up. Heavy duty steel construction. Three different dummy options. Never-Go-Flat Wheels.`,
+        details: [
+            'SKU: PF1021654',
+            `Beam height adjusts from 76" to 92"`,
+            `Easy set up`,
+            `Heavy duty steel construction`,
+            `Available in 10' and 20' widths`,
+            `Three different dummy options`,
+            `Never-Go-Flat wheels`,
+        ],
+        options: [
+            `PF1011654: 10ft frame + (1) 16"x54" Hanging Dummy (500 lbs)`,
+            `PF1011872: 10ft frame + (1) 18"x72" Hanging Dummy (520 lbs)`,
+            `PF1013860: 10ft frame + (1) 38"x60" Hanging Dummy (755 lbs)`,
+            `PF1021654: 10ft frame + (2) 16"x54" Hanging Dummy (570 lbs)`,
+            `PF1021872: 10ft frame + (2) 18"x72" Hanging Dummy (610 lbs)`,
+            `PF2031654: 20ft frame + (3) 16"x54" Hanging Dummy (730 lbs)`,
+            `PF2031872: 20ft frame + (3) 18"x72" Hanging Dummy (790 lbs)`,
+            `PF2041654: 20ft frame + (4) 16"x54" Hanging Dummy (800 lbs)`,
+            `PF2041872: 20ft frame + (4) 18"x72" Hanging Dummy (880 lbs)`,
+            `FHD1654: "Fullback" Dummy (70 lbs) 16" Diam x 54" Tall`,
+            `FHD1872: "Linebacker" Dummy (90 lbs) 18" Diam x 72" Tall`,
+            `FHD3860: "Bad" Dummy (325 lbs) 38" Diam x 60" Tall`
+        ],
+        category: 'football',
+        subCategory: 'blasters',
+        urlCategory: 'football',
+        urlSubCategory: 'blasters',
+        image: "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fpower-frame-pf1021654-HQ1.jpg?alt=media&token=8b51e9f9-a5bd-4cd4-8a3a-5b9807b069f7",
+        images: [
+            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fpower-frame-pf1021654-HQ1.jpg?alt=media&token=8b51e9f9-a5bd-4cd4-8a3a-5b9807b069f7",
+            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fpower-frame-pf1021654-HQ2.jpg?alt=media&token=fe3ccf4f-977a-405a-8ad6-2ec4a50cecae",
+            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fpower-frame-pf1021654-HQ3.jpg?alt=media&token=5b6f205e-a078-4428-b57c-2c72c6cc41d3"
+        ]
+    },{
+        id: 'p89',
+        name: 'The Club',
+        sku: 'hd1500pr',
+        description: `Practice live drills with maximum protection. Defensive lineman practice Swim/Rip/Chop. Arm slides into pad with handle inside. Individual. 24" L x 9-1/2" outside diameter.`,
+        details: [
+            'SKU: HD1500PR',
+            'Practice live drills with maximum protection',
+            'Defensive linemen practice - Swim/Rip/Chop',
+            'Arm slides into pad with handles inside',
+            'Standard colors: red w/ black tip; gold w/ black tip',
+            '24" Long x 9 1/2" Outside Diam'
+        ],
+        options: [
+            `HD1500: Arm Shield`,
+            `HD1500: Arm Shield Pair`
+        ],
+        category: 'football',
+        subCategory: 'dummies',
+        urlCategory: 'football',
+        urlSubCategory: 'dummies',
+        image: "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fthe-club-hd1500pr-HQ1.jpg?alt=media&token=c634d899-742b-4395-a688-d4536ee63ac4",
+        images: [
+            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fthe-club-hd1500pr-HQ1.jpg?alt=media&token=c634d899-742b-4395-a688-d4536ee63ac4",
+            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fthe-club-hd1500pr-HQ2.jpg?alt=media&token=dd04d929-0f67-42d3-b271-c34eee705139"
         ]
     }
 ]

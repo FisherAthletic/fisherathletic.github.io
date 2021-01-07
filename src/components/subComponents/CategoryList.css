@@ -18,29 +18,14 @@
     border-radius: 5px;
     animation-duration: 0.3s;
     animation-name: slideLeft;
-    /* filter: grayscale(1); */
-    padding: 0 0 1rem 0;
 }
 
 .category-grid li:hover {
-    background: #485A69;
-    filter: grayscale(0);
-
+    background: #008bfd;
 }
 
-.category-title {
-    /* background: #8B0000; */
-    /* padding: 0.5rem 0; */
-}
+.category-block {
 
-.category-image {
-    width: 80%;
-    border-radius: 5px;
-}
-
-.subcategory-image {
-    width: 80%;
-    border-radius: 5px;
 }
 
 @keyframes slideLeft {

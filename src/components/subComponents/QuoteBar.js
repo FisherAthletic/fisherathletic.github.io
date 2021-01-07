@@ -38,7 +38,7 @@ const QuoteBar = (props) => {
     <div className={classes.root}>
       <ButtonGroup variant="contained" color="secondary" aria-label="contained primary button group" size="small" fullWidth={true}>
         <Button onClick={handleCall}><CallIcon className={classes.icon}/>Call</Button>
-        <Button onClick={handleEmail}><SendIcon className={classes.icon}/>Message</Button>
+        <Button onClick={handleEmail}><SendIcon className={classes.icon}/>Contact</Button>
       </ButtonGroup>
     </div>
     </div>

@@ -4,9 +4,12 @@
 
 .productItem h3 {
     margin: 0 0.5rem 0 0.5rem;
+    font-weight: normal;
+    font-size: medium;
 }
 
 .productItem p {
     margin: 0 0.5rem 0.5rem 0.5rem;
-    color: lightgray;
+    color: rgb(150, 150, 150);
+    font-size: small;
 }

@@ -6,6 +6,7 @@ const SubCategoryItem = props => {
         <li>
             <Link to={`/${props.urlName}/products`}>
             <h3>{props.name}</h3>
+            <img className='subcategory-image' src={props.image} />
             </Link>
         </li>
     )

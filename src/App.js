@@ -1,6 +1,7 @@
 import React from 'react';
 import { FormspreeProvider } from '@formspree/react'
-import Navbar from "./components/Navbar"
+// import Navbar from "./components/Navbar"
+import TopNav from './components/subComponents/TopNav'
 import Home from "./components/Home"
 import Products from "./components/Products"
 import Catalogs from "./components/Catalogs"
@@ -15,27 +16,18 @@ import User from './components/User'
 import Footer from './components/Footer'
 import Downloads from './components/Downloads'
 import Policies from './components/Policies'
+import './App.css'
 
 function App() {
 
     // variable for using a media query
     const isNavSmall = useMediaQuery('(max-width: 599px)')
 
-    const offset = {
-        marginLeft: "65px",
-        marginTop: "60px",
-        padding: "0.4rem 1rem"
-    }
-    const offsetSmall = {
-        marginLeft: "58px",
-        marginTop: "55px",
-        padding: "0.4rem 1rem"
-    }
     return (
       <FormspreeProvider project="1560865689529482483">
         <Router>
-          <Navbar />
-            <div style={isNavSmall ? offsetSmall : offset}>
+          <TopNav />
+        <div>
               <Route exact path="/"><Home/></Route>
               <Route exact path="/catalogs"><Catalogs/></Route>
               <Route exact path="/contact"><Contact/></Route>
@@ -47,8 +39,8 @@ function App() {
               <Route exact path="/user"><User/></Route>
               <Route exact path='/downloads'><Downloads /></Route>
               <Route exact path='/policies'><Policies /></Route>
-            </div>
-          <Footer class={isNavSmall ? 'footer_container_sm' : 'footer_container'}/>
+              </div>
+          <Footer class='footer_container' />
         </Router>
       </FormspreeProvider>
     )
