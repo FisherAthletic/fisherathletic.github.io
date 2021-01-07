@@ -1,6 +1,8 @@
 .uiDetailList {
     list-style-type: none;
     padding: 0px 0px 0px 0px;
+    font-weight: lighter;
+    color: rgb(189, 189, 189);
 }
 
 .uiDetailList a {

@@ -9,14 +9,14 @@ const Footer = props => {
         <div className={props.class}>
             <SocialMediaBar />
             <div class='footer-links-group'>
-                <Link to='/downloads' className='download_footer'>
-                    <h3>Downloads</h3>
+                <Link to='/downloads'>
+                    <h3 className='footer-link'>Downloads</h3>
                 </Link>
-                <Link to='/policies' className='policies'>
-                    <h3>Policies</h3>
+                <Link to='/policies'>
+                    <h3 className='footer-link'>Policies</h3>
                 </Link>
-                <Link to='/contact' className='contact_footer'>
-                    <h3>Contact</h3>
+                <Link to='/contact'>
+                    <h3 className='footer-link'>Contact</h3>
                 </Link>
             </div>
             <div className='copyright_footer'>

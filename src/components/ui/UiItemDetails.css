@@ -5,7 +5,10 @@
 }
 
 .uiItemDetails p {
+    color: rgb(189, 189, 189);
     padding: 0 1rem;
+    font-weight: lighter;
+    margin: 0.5rem 0 0 0;
 }
 
 .uiItemDetails h3 {
@@ -15,12 +18,9 @@
     text-align: left;
     color: white;
     border-bottom: 1px lightblue solid;
+    font-weight: normal;
 }
 
 .uiDetailList {
     margin: 0 0 2rem 0;
-}
-
-.uiItemDetails p {
-    margin: 0.5rem 0 0 0;
 }
