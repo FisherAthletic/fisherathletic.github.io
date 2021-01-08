@@ -8,7 +8,7 @@ const Footer = props => {
     return (
         <div className={props.class}>
             <SocialMediaBar />
-            <div class='footer-links-group'>
+            <div className='footer-links-group'>
                 <Link to='/downloads'>
                     <h3 className='footer-link'>Downloads</h3>
                 </Link>
