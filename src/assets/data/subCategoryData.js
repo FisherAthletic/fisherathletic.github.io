@@ -16,19 +16,19 @@ let subCategoryData = [
         name: 'Blasters',
         urlName: 'blasters',
         main: 'Football',
-        coverImg: 'https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fpower-blaster-bla12hd9002m-HD1.jpg?alt=media&token=ba845393-9fe1-4dc0-bc37-c5de62740b89'
+        coverImg: 'https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fimage-coming-soon.jpg?alt=media&token=e4f1e90a-0052-459f-829c-57c5471e3415'
     },{
         id: 'c1-4',
         name: 'Chutes',
         urlName: 'chutes',
         main: 'Football',
-        coverImg: 'https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Ftrap-chute-96520-HQ1.jpg?alt=media&token=2f752ef2-17a1-40e7-b718-95f156c13cf7'
+        coverImg: 'https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fimage-coming-soon.jpg?alt=media&token=e4f1e90a-0052-459f-829c-57c5471e3415'
     },{
         id: 'c1-5',
         name: 'Dummies',
         urlName: 'dummies',
         main: 'Football',
-        coverImg: 'https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fhalf-round-dummies-HQ1.jpg?alt=media&token=f0ef0bfb-b129-4935-b987-106a395237a9'
+        coverImg: 'https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fimage-coming-soon.jpg?alt=media&token=e4f1e90a-0052-459f-829c-57c5471e3415'
     },{
         id: 'c1-6',
         name: 'Field Accessories',
