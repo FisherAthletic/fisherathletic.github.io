@@ -18,13 +18,12 @@
     border-radius: 5px;
     animation-duration: 0.3s;
     animation-name: slideLeft;
-    /* filter: grayscale(1); */
     padding: 0 0 1rem 0;
 }
 
 .category-grid li:hover {
     background: #485A69;
-    filter: grayscale(0);
+    transform: scale(1.05);
 
 }
 

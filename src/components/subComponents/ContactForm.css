@@ -83,12 +83,11 @@
     max-width: 300px;
     border-radius: 0.2rem;
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-    animation-duration: 0.7s;
-    animation-name: slideLeft;
 }
 
 .form_submit_btn:hover {
     background-color: #008bfd;
+    transform: scale(1.05);
 }
 
 @keyframes slideLeft {

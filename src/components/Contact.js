@@ -6,7 +6,7 @@ import './Contact.css'
 
 function Contact() {
     return(
-        <div className='contact_con'>
+        <div className='contact-div'>
             <div className='contact_intro'>
                 <IntroSection header='Contact Fisher Athletic' subHeader='Call our customer service now or send us a quick message!' />
             </div>

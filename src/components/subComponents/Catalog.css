@@ -8,14 +8,22 @@
     animation-name: slideLeft;
 }
 
-.catalog_item h3 {
+.catalog_image img:hover {
+    transform: scale(1.05);
+}
+
+.catalog_item img {
+    border-radius: 5px;
+}
+
+/* .catalog_item h3 {
     text-align: center;
     line-height: 0;
     color: white;
     font-weight: lighter;
     animation-duration: 0.5s;
     animation-name: slideLeft;
-}
+} */
 
 .catalog_item a {
     color: white;

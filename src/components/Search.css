@@ -1,3 +1,7 @@
+.search-div {
+    padding: 3rem 0 0 0;
+}
+
 .search {
     display: grid;
     gap: 1rem;

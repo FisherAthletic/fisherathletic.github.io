@@ -1,5 +1,6 @@
-.contact_con {
+.contact-div {
     display: grid;
     max-width: 900px;
     margin: auto;
+    padding: 3rem 0 0 0;
 }

@@ -12,7 +12,7 @@ const Search = props => {
     }
 
     return (
-        <div>
+        <div className='search-div'>
             <IntroSection header="Search" subHeader="Find amazing products." />
             <form className="search" autoComplete="off">
                 <input className="item-a" type="text" name="searchInput" placeholder="Fisher Athletic Products" onChange={handleInput} />

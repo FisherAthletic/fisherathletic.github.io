@@ -15,7 +15,7 @@ const catalogList = catalogData.map(item =>
 
 const Catalogs = () => {
     return(
-        <div>
+        <div className='catalogs-div'>
             <IntroSection header="Catalogs" subHeader="Browse our most recent catalogs." />
             <div className="catalog_grid">
                 {catalogList}

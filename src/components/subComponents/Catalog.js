@@ -10,7 +10,7 @@ const Catalog = props => {
                 <div className="catalog_image">
                     <LazyImage src={props.image} alt={props.name} />
                 </div>
-                <h3>{props.year} {props.name}</h3>
+                {/* <h3>{props.year} {props.name}</h3> */}
             </a>
         </div>
     )
