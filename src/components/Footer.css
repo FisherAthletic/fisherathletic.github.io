@@ -32,5 +32,13 @@
 }
 
 .footer-link {
-    font-weight: normal;
+    font-weight: lighter;
+}
+
+.footer-link:hover {
+    color: red;
+}
+
+.copyright_footer {
+    font-weight: lighter;
 }

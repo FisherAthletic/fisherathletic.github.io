@@ -1,6 +1,6 @@
 .social_media_bar_con {
     display: grid;
-    background: #00a2ff;
+    background: #242D33;
     line-height: 0;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
@@ -12,6 +12,10 @@
     color: white;
     list-style: none;
     text-decoration: none;
+}
+
+.social_media_bar_con a:hover {
+    color: red;
 }
 
 .fb_item {

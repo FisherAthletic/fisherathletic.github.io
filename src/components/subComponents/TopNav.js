@@ -7,6 +7,7 @@ import Typography from '@material-ui/core/Typography';
 import MenuItem from '@material-ui/core/MenuItem';
 import Menu from '@material-ui/core/Menu';
 import MenuIcon from '@material-ui/icons/Menu';
+import SearchIcon from '@material-ui/icons/Search';
 import { Link } from 'react-router-dom'
 import Logo from './Logo'
 import categoryData from '../../assets/data/categoryData'
@@ -97,7 +98,7 @@ export default function TopNav() {
     >
       <MenuItem>
         <Link to='/'>
-            <p>Home</p>
+            <p>HOME</p>
         </Link>
       </MenuItem>
       <MenuItem onClick={handleProductsMenuOpen}>
@@ -105,22 +106,22 @@ export default function TopNav() {
         aria-label="Products"
         aria-controls="primary-search-account-menu"
         aria-haspopup="true">
-            Products
+            PRODUCTS
         </p>
       </MenuItem>
       <MenuItem>
       <Link to='/catalogs'>
-        <p>Catalogs</p>
+        <p>CATALOGS</p>
       </Link>
       </MenuItem>
       <MenuItem>
       <Link to='/contact'>
-        <p>Contact</p>
+        <p>CONTACT</p>
       </Link>
       </MenuItem>
       <MenuItem>
       <Link to='/search'>
-        <p>Search</p>
+        <p>SEARCH</p>
       </Link>
       </MenuItem>
     </Menu>
@@ -138,23 +139,23 @@ export default function TopNav() {
           <div className={classes.grow} />
           <div className={classes.sectionDesktop}>
             <Link to='/'>
-                    <p className='topnav-typography'>Home</p>
+                    <p className='topnav-typography'>HOME</p>
             </Link>
                   <p className='topnav-typography' 
                     aria-label='Products' 
                     aria-controls={menuId} 
                     aria-haspopup='true' 
                     onClick={handleProductsMenuOpen}>
-                      Products
+                      PRODUCTS
                     </p>
             <Link to='/catalogs'>
-                    <p className='topnav-typography'>Catalogs</p>
+                    <p className='topnav-typography'>CATALOGS</p>
             </Link>
             <Link to='/contact'>
-                    <p className='topnav-typography'>Contact</p>
+                    <p className='topnav-typography'>CONTACT</p>
             </Link>
             <Link to='/search'>
-                <p className='topnav-typography'>Search</p>
+                <SearchIcon className='topnav-icon' />
             </Link>
           </div>
           <div className={classes.sectionMobile}>

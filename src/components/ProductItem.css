@@ -15,6 +15,6 @@
 
 .productItem p {
     margin: 0 0.5rem 0.5rem 0.5rem;
-    color: rgb(150, 150, 150);
+    color: gray;
     font-size: small;
 }

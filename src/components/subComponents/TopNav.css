@@ -15,11 +15,23 @@
 
 .topnav-typography {
     line-height: normal;
-    padding: 0.5rem 0.5rem;
+    padding: 0.5rem 1rem;
+    margin: 0 1rem;
     cursor: pointer;
     border-bottom: 3px #242D33 solid;
+    font-weight: lighter;
+    font-size: small;
 }
 
 .topnav-typography:hover {
-    border-bottom: 3px red solid;
+    border-bottom: 4px red solid;
+}
+
+.topnav-icon {
+    /* background: gray; */
+    padding: 4px 1rem 0 1rem ;
+}
+
+.topnav-icon:hover {
+    color: red;
 }
