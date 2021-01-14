@@ -10,6 +10,7 @@ import Categories from './components/pages/Categories'
 import { useMediaQuery } from "@material-ui/core"
 import { BrowserRouter as Router, Route } from "react-router-dom"
 import SubCategories from './components/pages/SubCategories';
+import Groups from './components/pages/Groups'
 import Item from './components/pages/Item'
 import Search from './components/Search'
 import User from './components/User'
@@ -34,6 +35,7 @@ function App() {
               <Route exact path="/categories"><Categories/></Route>
               <Route exact path="/:subCategory/subCategories"><SubCategories/></Route>
               <Route exact path="/:products/products"><Products/></Route>
+              <Route exact path="/:groups/groups"><Groups/></Route>
               <Route exact path="/:item/item"><Item/></Route>
               <Route exact path="/search"><Search/></Route>
               <Route exact path="/user"><User/></Route>

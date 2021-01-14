@@ -1,15 +1,15 @@
-.productItem img {
+.group-card-div img {
     width: 100%;
     border-radius: 5px;
 }
 
-.productItem h3 {
+.group-card-div h3 {
     margin: 0 0.5rem 0 0.5rem;
     font-weight: normal;
     font-size: medium;
 }
 
-.productItem p {
+.group-card-div p {
     margin: 0 0.5rem 0.5rem 0.5rem;
     color: lightskyblue;
     font-size: small;

@@ -61,7 +61,7 @@ const Products = props => {
             <BackButton />
             <IntroSection header="Products" subHeader={`Find amazing items from Fisher Athletic.`} />
             <h3 style={{color: 'lightgray', padding: '0.5rem 0 0.5rem 0', fontWeight: 'lighter', background: '#242D33', textAlign: 'center'}}>Search results for: {url.replace('+all', '')}</h3>
-            <ProductList items={loadedProducts} />
+            <ProductList items={loadedProducts} inGroup={false} />
             {/* <h3>{urlSpaceToPlus}</h3> */}
             {/* <h3>{output}</h3> */}
         </div>
