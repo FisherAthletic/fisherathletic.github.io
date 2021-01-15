@@ -1506,10 +1506,10 @@ let productData = [
             `GPP2007/2017: 7'H x 22"Diam`
         ],
         category: 'football',
-        subCategory: 'field',
+        subCategory: 'gameday',
         group: 'Goal Post Pads',
         urlCategory: 'football',
-        urlSubCategory: 'field',
+        urlSubCategory: 'gameday',
         image: "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fgoal-post-pad-gppl1-HQ1.jpg?alt=media&token=151ee26e-09fc-40b7-9c0d-03c13935fd14",
         images: [
             "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fgoal-post-pad-gppl1-HQ1.jpg?alt=media&token=151ee26e-09fc-40b7-9c0d-03c13935fd14",
@@ -1538,10 +1538,10 @@ let productData = [
             `GPP2007/2017: 7'H x 22"Diam`
         ],
         category: 'football',
-        subCategory: 'field',
+        subCategory: 'gameday',
         group: 'Goal Post Pads',
         urlCategory: 'football',
-        urlSubCategory: 'field',
+        urlSubCategory: 'gameday',
         image: "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fgoal-post-pad-gppl2-HQ1.jpg?alt=media&token=4bc21117-3ecc-4192-85ef-7bda6a5ec58c",
         images: [
             "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fgoal-post-pad-gppl2-HQ1.jpg?alt=media&token=4bc21117-3ecc-4192-85ef-7bda6a5ec58c",
@@ -1571,10 +1571,10 @@ let productData = [
             `GPP2007/2017: 7'H x 22"Diam`
         ],
         category: 'football',
-        subCategory: 'field',
+        subCategory: 'gameday',
         group: 'Goal Post Pads',
         urlCategory: 'football',
-        urlSubCategory: 'field',
+        urlSubCategory: 'gameday',
         image: "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fgoal-post-pad-gpplldp-HQ1.jpg?alt=media&token=1e3cb80b-8b56-47cb-9709-a68db6c8b970",
         images: [
             "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fgoal-post-pad-gpplldp-HQ1.jpg?alt=media&token=1e3cb80b-8b56-47cb-9709-a68db6c8b970",
@@ -1602,10 +1602,10 @@ let productData = [
             `GPP2007/2017: 7'H x 22"Diam`
         ],
         category: 'football',
-        subCategory: 'field',
+        subCategory: 'gameday',
         group: 'Goal Post Pads',
         urlCategory: 'football',
-        urlSubCategory: 'field',
+        urlSubCategory: 'gameday',
         image: "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fgoal-post-pad-gppedp-HQ1.jpg?alt=media&token=cf157289-716e-40bd-a970-cbc438534306",
         images: [
             "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fgoal-post-pad-gppedp-HQ1.jpg?alt=media&token=cf157289-716e-40bd-a970-cbc438534306",
@@ -1629,10 +1629,10 @@ let productData = [
             `GPPC22: 12"H x 22"Diam`
         ],
         category: 'football',
-        subCategory: 'field',
+        subCategory: 'gameday',
         group: '',
         urlCategory: 'football',
-        urlSubCategory: 'field',
+        urlSubCategory: 'gameday',
         image: "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fgoal-post-pad-cap-gppc-HQ3.jpg?alt=media&token=f793d355-27bd-4166-a3ed-60e1d17824f0",
         images: [
             "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fgoal-post-pad-cap-gppc-HQ3.jpg?alt=media&token=f793d355-27bd-4166-a3ed-60e1d17824f0",
@@ -1657,10 +1657,10 @@ let productData = [
             `College: GP2E, GP2, GP230, GP4, GP4PRO30, GP4-830`
         ],
         category: 'football',
-        subCategory: 'field',
+        subCategory: 'gameday',
         group: 'Goal Posts',
         urlCategory: 'football',
-        urlSubCategory: 'field',
+        urlSubCategory: 'gameday',
         image: "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fgoal-post-yellow-gppcy-HQ1.jpg?alt=media&token=349a741a-fda6-4707-b979-4431ecb80c1b",
         images: [
             "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fgoal-post-yellow-gppcy-HQ1.jpg?alt=media&token=349a741a-fda6-4707-b979-4431ecb80c1b",
@@ -1686,10 +1686,10 @@ let productData = [
             `College: GP2E, GP2, GP230, GP4, GP4PRO30, GP4-830`
         ],
         category: 'football',
-        subCategory: 'field',
+        subCategory: 'gameday',
         group: 'Goal Posts',
         urlCategory: 'football',
-        urlSubCategory: 'field',
+        urlSubCategory: 'gameday',
         image: "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fgoal-post-white-gppcw-HQ1.jpg?alt=media&token=16b4ee87-b563-4085-80ae-eb5949609d6c",
         images: [
             "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fgoal-post-white-gppcw-HQ1.jpg?alt=media&token=16b4ee87-b563-4085-80ae-eb5949609d6c",
@@ -1722,10 +1722,10 @@ let productData = [
             `6000UPRIGHTS: 1 Set of Movable Uprights 8'H x 8"W`
         ],
         category: 'football',
-        subCategory: 'field',
+        subCategory: 'gameday',
         group: 'Goal Posts',
         urlCategory: 'football',
-        urlSubCategory: 'field',
+        urlSubCategory: 'gameday',
         image: "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fportable-goal-post-HQ1.jpg?alt=media&token=c11a395b-efe7-44e7-991e-62f18fb8af4c",
         images: [
             "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fportable-goal-post-HQ1.jpg?alt=media&token=c11a395b-efe7-44e7-991e-62f18fb8af4c",
@@ -1753,10 +1753,10 @@ let productData = [
             `6000HGH: High School Goal: 20'H x 23'4"W`
         ],
         category: 'football',
-        subCategory: 'field',
+        subCategory: 'gameday',
         group: 'Goal Posts',
         urlCategory: 'football',
-        urlSubCategory: 'field',
+        urlSubCategory: 'gameday',
         image: "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fh-style-goal-6000hgh-HQ1.jpg?alt=media&token=296e6784-7c83-431e-b0b6-9dba8a1383f5",
         images: [
             "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fh-style-goal-6000hgh-HQ1.jpg?alt=media&token=296e6784-7c83-431e-b0b6-9dba8a1383f5",
@@ -1892,10 +1892,10 @@ let productData = [
             `WS3: Windstreamer`
         ],
         category: 'football',
-        subCategory: 'field',
-        group: '',
+        subCategory: 'gameday',
+        group: 'Windstreamers',
         urlCategory: 'football',
-        urlSubCategory: 'field',
+        urlSubCategory: 'gameday',
         image: "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fwindstreamer-deluxe-ws3d-HQ1.jpg?alt=media&token=f5b77b2b-7d33-46b0-9a76-b8e676975d19",
         images: [
             "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fwindstreamer-deluxe-ws3d-HQ1.jpg?alt=media&token=f5b77b2b-7d33-46b0-9a76-b8e676975d19",
@@ -1917,10 +1917,10 @@ let productData = [
             `WS3D: Deluxe Windstreamer`
         ],
         category: 'football',
-        subCategory: 'field',
-        group: '',
+        subCategory: 'gameday',
+        group: 'Windstreamers',
         urlCategory: 'football',
-        urlSubCategory: 'field',
+        urlSubCategory: 'gameday',
         image: "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fwindstreamer-ws3-HQ1.jpg?alt=media&token=590a2692-b6c9-47f0-8cda-b87d70818a2c",
         images: [
             "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fwindstreamer-ws3-HQ1.jpg?alt=media&token=590a2692-b6c9-47f0-8cda-b87d70818a2c",
