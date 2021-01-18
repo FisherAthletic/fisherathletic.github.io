@@ -2585,7 +2585,147 @@ let productData = [
         image: "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fthe-club-hd1500pr-HQ1.jpg?alt=media&token=c634d899-742b-4395-a688-d4536ee63ac4",
         images: [
             "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fthe-club-hd1500pr-HQ1.jpg?alt=media&token=c634d899-742b-4395-a688-d4536ee63ac4",
-            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fthe-club-hd1500pr-HQ2.jpg?alt=media&token=dd04d929-0f67-42d3-b271-c34eee705139"
+            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fthe-club-hd1500pr-HQ2.jpg?alt=media&token=dd04d929-0f67-42d3-b271-c34eee705139",
+            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fthe-club-hd1500pr-HQ3.jpg?alt=media&token=2156b77e-0fd0-4d34-9d2b-932a6096fb42"
+        ]
+    },{
+        id: 'p90',
+        name: 'Combat Club',
+        sku: 'hd3500',
+        description: `Improve lineman and skill position technique and help test ball security. Five strategic handle grips. 72"L x 10"Dia.`,
+        details: [
+            'SKU: HD3500',
+            'Improve lineman and skill position technique',
+            'Help test ball security',
+            'Five strategic handle grips',
+            '72"L x 10"Diam',
+            'Weight: 7 lbs'
+        ],
+        options: [
+            ``
+        ],
+        category: 'football',
+        subCategory: 'dummies',
+        group: '',
+        urlCategory: 'football',
+        urlSubCategory: 'dummies',
+        image: "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fcombat-club-hd3500-HQ1.jpg?alt=media&token=be73607f-fb88-40ab-86fd-d46390579411",
+        images: [
+            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fcombat-club-hd3500-HQ1.jpg?alt=media&token=be73607f-fb88-40ab-86fd-d46390579411",
+            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fcombat-club-hd3500-HQ2.jpg?alt=media&token=0950ff66-8eb4-42ec-a338-e3f18b34a0a8",
+            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fcombat-club-hd3500-HQ3.jpg?alt=media&token=7966aade-ef47-4797-89b1-96c457d52438",
+            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fcombat-club-hd3500-HQ4.jpg?alt=media&token=384f6d7e-b9b6-4f3f-920a-e4f9c56458a0"
+        ]
+    },{
+        id: 'p91',
+        name: 'Utility Stick',
+        sku: 'us326',
+        description: `Teaches players proper ball holding technique. The Utility Stick can be used for fumble drills to knock the ball loose. It can also be used for passing drills to extend a defenders reach.`,
+        details: [
+            'SKU: US326',
+            `32"L x 6"Diam polyfoam`,
+            `18"L rubber handle grip`,
+            `Available in 18oz royal blue`,
+        ],
+        options: [
+            ``
+        ],
+        category: 'football',
+        subCategory: 'dummies',
+        group: '',
+        urlCategory: 'football',
+        urlSubCategory: 'dummies',
+        image: "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Futility-stick-us326-HQ1.jpg?alt=media&token=df4099f8-ab84-41fb-b1cd-a569b40ba3d5",
+        images: [
+            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Futility-stick-us326-HQ1.jpg?alt=media&token=df4099f8-ab84-41fb-b1cd-a569b40ba3d5",
+            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Futility-stick-us326-HQ2.jpg?alt=media&token=a4b5844b-da41-4ef0-8718-86deaef1ee29",
+            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Futility-stick-us326-HQ3.jpg?alt=media&token=4659a54f-79bd-44ac-8d57-459050d8761f"
+        ]
+    },{
+        id: 'p92',
+        name: 'Curved Body Shield',
+        sku: 'hd100',
+        description: `Shield and Dummies designed especially for your junior football program. Maximum protection for the upper body. Excellent for training with restrained contact. Built using durable polyfoam and 18 oz. coated vinyl. 2 padded web handles.`,
+        details: [
+            'SKU: HD100',
+            `Suitable for junior high through college`,
+            `Maximum protection for the upper body`,
+            `Excellent for training with restrained contact`,
+            `Built using durable polyfoam and 18oz coated vinyl`,
+            `2 padded web handles`,
+            `Dimensions: 24" x 16" x 4"`,
+            `Weight: 3lbs`,
+        ],
+        options: [
+            ``
+        ],
+        category: 'football',
+        subCategory: 'dummies',
+        group: 'Body Shields',
+        urlCategory: 'football',
+        urlSubCategory: 'dummies',
+        image: "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fcurved-body-shield-hd100-HQ1.jpg?alt=media&token=39212b96-a268-42bc-b97d-27c7436fcbc4",
+        images: [
+            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fcurved-body-shield-hd100-HQ1.jpg?alt=media&token=39212b96-a268-42bc-b97d-27c7436fcbc4",
+            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fcurved-body-shield-hd100-HQ2.jpg?alt=media&token=e5e797a6-db1c-4802-ab36-6184dea6c483",
+            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fcurved-body-shield-hd100-HQ4.jpg?alt=media&token=24ffc88c-b55d-425d-842f-f88209be8426",
+            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fcurved-body-shield-hd100-HQ3.jpg?alt=media&token=57501ac4-00d7-4789-89fe-8ae6932902e7"
+        ]
+    },{
+        id: 'p93',
+        name: 'Atlantic Curved Body Shield',
+        sku: 'hd200',
+        description: `Two padded web handles. Suitable for college and advanced high school practice. Heavier weight bonded foam. Web handles with foam inserts for a sure grip. Box "X" tack with vinyl reinforced backs. Die cut 100 Indentation Load Deflection foam keeps its shape for years. Block numbers provide target points.`,
+        details: [
+            'SKU: HD200',
+            `2 padded web handles`,
+            `Suitable for college and advanced high school practice`,
+            `Heavier weight bonded foam`,
+            `Dimensions: 32" x 17" x 4"`,
+            `Weight: 8lbs`,
+        ],
+        options: [
+            ``
+        ],
+        category: 'football',
+        subCategory: 'dummies',
+        group: 'Body Shields',
+        urlCategory: 'football',
+        urlSubCategory: 'dummies',
+        image: "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fatlantic-curved-body-shield-hd200-HQ1.jpg?alt=media&token=eece62ec-47aa-4f8c-ac26-ed4d4cea1000",
+        images: [
+            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fatlantic-curved-body-shield-hd200-HQ1.jpg?alt=media&token=eece62ec-47aa-4f8c-ac26-ed4d4cea1000",
+            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fatlantic-curved-body-shield-hd200-HQ2.jpg?alt=media&token=ae5b6139-d86e-44b8-98af-d828cd09c6bc",
+            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fatlantic-curved-body-shield-hd200-HQ3.jpg?alt=media&token=6059d8f2-74c8-479e-aefa-70631ce3ea2b"
+        ]
+    },{
+        id: 'p94',
+        name: 'Curved Body Shield',
+        sku: 'hd150',
+        description: `Shield and Dummies designed especially for your junior football program. Maximum protection for the upper body. Excellent for training with restrained contact. Built using durable polyfoam and 18 oz. coated vinyl. 2 padded web handles.`,
+        details: [
+            'SKU: HD150',
+            `Suitable for junior high through college`,
+            `Maximum protection for the upper body`,
+            `Excellent for training with restrained contact`,
+            `Built using durable polyfoam and 18oz coated vinyl`,
+            `2 padded web handles`,
+            `Dimensions: 30" x 18" x 4"`,
+            `Weight: 4lbs`,
+        ],
+        options: [
+            ``
+        ],
+        category: 'football',
+        subCategory: 'dummies',
+        group: 'Body Shields',
+        urlCategory: 'football',
+        urlSubCategory: 'dummies',
+        image: "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fcurved-body-shield-hd150-HQ1.jpg?alt=media&token=035be636-e03e-435b-a6e2-4efa564ff679",
+        images: [
+            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fcurved-body-shield-hd150-HQ1.jpg?alt=media&token=035be636-e03e-435b-a6e2-4efa564ff679",
+            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fcurved-body-shield-hd150-HQ2.jpg?alt=media&token=30087df9-d909-409d-a816-0883acc7131a",
+            "https://firebasestorage.googleapis.com/v0/b/fisher-website-r.appspot.com/o/products%2Fcurved-body-shield-hd150-HQ3.jpg?alt=media&token=8a09af63-434a-4f40-84a5-ec241faba230"
         ]
     }
 ]

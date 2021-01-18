@@ -1,3 +1,8 @@
+.home-div {
+    display: grid;
+    justify-content: center;
+}
+
 .image_hero_group {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
